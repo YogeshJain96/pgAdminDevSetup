@@ -1,17 +1,26 @@
 # pgAdminDevSetup
 How to setup pgAdmin Dev Env Setup
 
+> Setup Git Repo
+
 ```git clone https://github.com/postgres/pgadmin4.git```
 
 ```cd pgadmin4/```
 
+> Create Virtual Env (Python3)
+
 ```virtualenv -p python3 venv3```
+
+> Activate Virtual Env
 
 ```source env/bin/activate```
 
-```cd web```
+> Installing Dependency
 
 ```pip3 --no-cache-dir install -r requirements.txt```
+
+```cd web```
+
 ```yarn install ```
 ```yarn bundle ```
 
