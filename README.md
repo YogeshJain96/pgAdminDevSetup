@@ -41,3 +41,13 @@ OSError: [Errno 13] Permission denied: '/var/log/pgadmin'
 
 ```mkdir /var/log/pgadmin```
 ```sudo chown <uesr>:<user> /var/log/pgadmin```
+
+## To Reset the Password of pgAdmin
+
+> Remove whatever is there inside .pgadmin
+
+FYI:In Ubuntu the path of STORAGE_DIR is **/home/yogesh/.pgadmin/**
+
+```cd /home/yogesh/.pgadmin/```
+
+```rm -rf *```
