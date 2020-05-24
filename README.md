@@ -1,7 +1,7 @@
 # pgAdminDevSetup
 How to setup pgAdmin Dev Env Setup
 
-> Setup Git Repo
+> Clone Git Repo
 
 ```git clone https://github.com/postgres/pgadmin4.git```
 
@@ -15,18 +15,22 @@ How to setup pgAdmin Dev Env Setup
 
 ```source env/bin/activate```
 
-> Installing Dependency
+> Install Python Dependency
 
 ```pip3 --no-cache-dir install -r requirements.txt```
 
 ```cd web```
 
+> Install Node Dependency
+
 ```yarn install ```
 ```yarn bundle ```
 
+> Run WebApp
+
 ```python pgAdmin4.py```
 
-> Troubleshooting 
+## Troubleshooting 
 
 OSError: [Errno 13] Permission denied: '/var/lib/pgadmin'
 
